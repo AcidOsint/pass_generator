@@ -2,7 +2,8 @@
 
 > **Q3** is a personal OPSEC tool for generating random passwords for work and OSINT accounts. It runs locally and offline, draws randomness only from the operating system's cryptographic generator through Python's `secrets` module, shows the exact entropy of every password, and copies the result to the clipboard with one key. It does not store, log, or transmit generated passwords.
 
-<!-- screenshot of the main menu goes here -->
+<img width="529" height="277" alt="изображение" src="https://github.com/user-attachments/assets/83b14e85-4bce-460b-a24e-76584463df9b" />
+
 
 ## Features
 

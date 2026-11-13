@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![Dependencies](https://img.shields.io/badge/Runtime%20Dependencies-None-brightgreen)
+
 # pass_generator Q3 (v1.2.0)
 
 > **Q3** is a personal OPSEC tool for generating random passwords for work and OSINT accounts. It runs locally and offline, draws randomness only from the operating system's cryptographic generator through Python's `secrets` module, shows the exact entropy of every password, and copies the result to the clipboard with one key. It does not store, log, or transmit generated passwords.

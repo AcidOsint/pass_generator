@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pass_generator"
+dynamic = ["version"]
+description = "Q3 PASS - local offline password generator (CLI, Windows)"
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+authors = [{ name = "AcidOsint" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+q3pass = "q3pass.__main__:main"
+
+[tool.setuptools]
+packages = ["q3pass"]
+
+[tool.setuptools.dynamic]
+version = { attr = "q3pass.__version__" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
